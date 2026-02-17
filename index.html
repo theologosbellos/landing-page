@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Landing Page | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Building amazing web experiences with HTML & CSS</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <p class="section-description">
+                I create beautiful, responsive websites that help businesses grow
+            </p>
+
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Clean, modern designs that capture attention and drive engagement.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>Development</h3>
+                    <p>Fast, responsive websites built with the latest technologies.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Optimization</h3>
+                    <p>Performance-focused solutions that load fast and rank well.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look perfect on any device</p>
+                </div>
+
+                <div class="card">
+                    <h3>Custom Development</h3>
+                    <p>Tailored solutions for your unique needs</p>
+                </div>
+
+                <div class="card">
+                    <h3>Maintenance</h3>
+                    <p>Ongoing support to keep your site running smoothly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!--   CONTACT SECTION (Form - Day 6)           -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">
+                Have a project in mind? Let's talk!
+            </p>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!--   FOOTER (Day 5)                           -->
+    <!-- ═══════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">My Story</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Experience</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Consulting</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#">Email: hello@example.com</a></li>
+                    <li><a href="#">Phone: +30 123 456 789</a></li>
+                    <li><a href="#">Ioannina, Greece</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
